@@ -12,11 +12,6 @@ docker build -t <your dockerhub username>/openshift-nginx .
 docker push <your dockerhub username>/openshift-nginx
 ```
 
-To build the image in OpenShift, you can use:
-```
-oc new-build --strategy=docker --name nginx --code https://github.com/ddonahue007/openshift-nginx.git
-```
-
 Deploy To OpenShift (Already built image ready for use)
 --------------------------------------
 
