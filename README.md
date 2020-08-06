@@ -25,7 +25,7 @@ oc --namespace <namespace> new-app --strategy=docker https://github.com/ddonahue
 oc --namespace <namespace> oc  expose svc/nginx --port=8081
 ```
 
-Connect with persistent storage volume
+Connect With Persistent Storage Volume
 ----------------------------------------
 This will be where the `importmap.json` file is hosted from. [See: mfe-json project](https://github.com/ddonahue007/mfe-json)
 ```
